@@ -1,5 +1,5 @@
 package appliancesJava;
-import java.lang.*;
+
 public class centralHub{
 
     public static void main(String[] args){
