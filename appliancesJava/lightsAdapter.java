@@ -1,16 +1,16 @@
 package appliancesJava;
 
-public class lightsAdapter implements rcFunctions{
+public class lightsAdapter implements powerFunctions{
 
-private lights light;
+    private final Light light;
 
-public lightsAdapter(lights light){ this.light = light;}
+    public lightsAdapter(Light light){ this.light = light;}
 
-@Override
-public String turnOn(){return light.lightsOn();}
+    @Override
+    public String turnOn(){return light.lightsOn();}
 
-@Override
-public String turnOff(){return light.lightsOff();}
+    @Override
+    public String turnOff(){return light.lightsOff();}
 
 
 

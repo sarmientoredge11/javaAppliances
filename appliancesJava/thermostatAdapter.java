@@ -1,23 +1,23 @@
 package appliancesJava;
 
-public class thermostatAdapter implements rcFunctions{
+public class thermostatAdapter implements powerFunctions, minpluFunctions {
 
-private thermoStat tStat;
+    private thermoStat tStat;
 
-public thermostatAdapter(thermoStat tStat){this.tStat = tStat;}
+    public thermostatAdapter(thermoStat tStat){this.tStat = tStat;}
 
 
-@Override
-    public String turnOff(){tStat.tsOff();}
+    @Override
+    public String turnOff(){return tStat.tsOff();}
 
-@Override
-    public String turnOn(){tStat.tsOn();}
-    
-@Override
-    public String minusButton(){tStat.tsDown();}
+    @Override
+    public String turnOn(){return tStat.tsOn();}
 
-@Override
-    public String plusButton(){tStat.tsUp();}
+    @Override
+    public String minusButton(){return tStat.tsDown();}
+
+    @Override
+    public String plusButton(){return tStat.tsUp();}
 
 
 

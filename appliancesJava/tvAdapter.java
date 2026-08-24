@@ -1,27 +1,27 @@
 package appliancesJava;
 
-public class tvAdapter implements rcFunctions{
+public class tvAdapter implements powerFunctions, minpluFunctions, prvnxtFunctions{
 
     private tv tv;
 
     public tvAdapter(tv tv){this.tv = tv;}
 
     @Override
-    public String turnOff(){tv.tvOff();}
+    public String turnOff(){return tv.tvOff();}
 
     @Override
-    public String turnOn(){tv.tvOn();}
+    public String turnOn(){return tv.tvOn();}
 
     @Override
-    public String minusButton(){tv.tvVolDown();}
+    public String minusButton(){return tv.tvVolDown();}
 
     @Override
-    public String plusButton(){tv.tvVolUp();}
+    public String plusButton(){return tv.tvVolUp();}
 
     @Override
-    public String nextButton(){tv.tvNext();}
+    public String nextButton(){return tv.tvNext();}
 
     @Override
-    public String previousButton(){tv.tvPrevious();}
+    public String previousButton(){return tv.tvPrevious();}
 
 }

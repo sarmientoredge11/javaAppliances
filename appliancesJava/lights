@@ -1,8 +1,0 @@
-package appliancesJava;
-
-public class lights {
-
-    public String lightsOff() {return "Light's are on!";}
-    public String lightsOn() {return "Light's are off!";}
-
-}
