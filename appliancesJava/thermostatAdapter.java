@@ -1,6 +1,6 @@
 package appliancesJava;
 
-public class thermostatAdapter implements powerFunctions, minpluFunctions {
+public class thermostatAdapter implements powerFunctions, adjustFunctions {
 
     private thermoStat tStat;
 

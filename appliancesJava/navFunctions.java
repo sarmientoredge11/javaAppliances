@@ -1,6 +1,6 @@
 package appliancesJava;
 
-public interface prvnxtFunctions {
+public interface navFunctions {
     public String nextButton();
     public String previousButton();
 }

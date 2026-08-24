@@ -1,6 +1,6 @@
 package appliancesJava;
 
-public class tvAdapter implements powerFunctions, minpluFunctions, prvnxtFunctions{
+public class tvAdapter implements powerFunctions, adjustFunctions, navFunctions{
 
     private tv tv;
 

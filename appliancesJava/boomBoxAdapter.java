@@ -1,6 +1,6 @@
 package appliancesJava;
 
-public class boomBoxAdapter implements minpluFunctions, powerFunctions, prvnxtFunctions{
+public class boomBoxAdapter implements adjustFunctions, powerFunctions, navFunctions{
 
     private boomBox bbox;
 
