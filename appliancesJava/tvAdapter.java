@@ -7,21 +7,21 @@ public class tvAdapter implements powerFunctions, adjustFunctions, navFunctions{
     public tvAdapter(tv tv){this.tv = tv;}
 
     @Override
-    public String turnOff(){return tv.tvOff();}
+    public String turnOff() { return tv.tvOff(); }
 
     @Override
-    public String turnOn(){return tv.tvOn();}
+    public String turnOn() { return tv.tvOn(); }
 
     @Override
-    public String minusButton(){return tv.tvVolDown();}
+    public String minusButton() { return tv.tvVolDown(); }
 
     @Override
-    public String plusButton(){return tv.tvVolUp();}
+    public String plusButton() { return tv.tvVolUp(); }
 
     @Override
-    public String nextButton(){return tv.tvNext();}
+    public String nextButton() { return tv.tvNext(); }
 
     @Override
-    public String previousButton(){return tv.tvPrevious();}
+    public String previousButton() { return tv.tvPrevious(); }
 
 }

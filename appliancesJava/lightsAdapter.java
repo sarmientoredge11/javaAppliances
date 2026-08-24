@@ -4,13 +4,13 @@ public class lightsAdapter implements powerFunctions{
 
     private final Light light;
 
-    public lightsAdapter(Light light){ this.light = light;}
+    public lightsAdapter(Light light) { this.light = light; }
 
     @Override
-    public String turnOn(){return light.lightsOn();}
+    public String turnOn() { return light.lightsOn(); }
 
     @Override
-    public String turnOff(){return light.lightsOff();}
+    public String turnOff() { return light.lightsOff(); }
 
 
 
